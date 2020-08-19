@@ -15,4 +15,13 @@ public interface LoginDao {
         List<User> getAllUser(@Param("username") String username, @Param("pageStart") int pageStart, @Param("pageSize") int pageSize);
 
         int getUserCounts(@Param("username") String username);
+
+        int updateState(@Param("id") Integer id, @Param("state") Boolean state);
+
+        int addUser(User user);
+
+        int deleteUser(int id);
+
+        User getUpdateUser(int id);
+        int editUser(User user);
 }

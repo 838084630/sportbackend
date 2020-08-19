@@ -1,7 +1,7 @@
 spring:
   datasource:
     driverClassName:  com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql:///sports?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql:///bookStore?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
 mybatis:
